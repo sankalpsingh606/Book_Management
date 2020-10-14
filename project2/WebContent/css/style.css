@@ -1,0 +1,33 @@
+.product{
+   background-image: url("background 4.jpg");
+    padding: 3%;
+}
+.product-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.product-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+.product-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+.product .product-form{
+    padding: 10%;
+    margin-top: 10%;
+}
+
+.register-heading{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+}
