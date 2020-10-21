@@ -22,7 +22,7 @@ public class EmailClient {
 
 		Session mailsession = Session.getDefaultInstance(props, new javax.mail.Authenticator() {
 			protected PasswordAuthentication getPasswordAuthentication() {
-				return new PasswordAuthentication("sankalpsingh606@gmail.com","Sankalp@1997");
+				return new PasswordAuthentication("Enter the Email","Enter the password");
 			}
 		});
 
